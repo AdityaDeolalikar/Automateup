@@ -131,7 +131,7 @@ const Testimonials = () => {
           <div className="relative z-10 flex flex-col justify-between h-full">
             <CountUp
               start={countStart ? 0 : null}
-              end={1200}
+              end={700}
               duration={6}
               suffix="+"
               className="mt-3 text-5xl md:text-6xl"

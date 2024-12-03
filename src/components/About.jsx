@@ -243,7 +243,7 @@ const About = () => {
         </h1>
         <p className="text-2xl font-semibold text-white md:text-3xl">Let's get started!</p>
         <div className="flex items-center justify-center">
-          <button className="flex items-center px-4 py-1 m-2 font-medium text-white transition-transform duration-200 border-2 border-white rounded-md cursor-pointer hover:scale-105 md:w-1/7 hover:bg-black hover:text-white hover:border-slate-900" onClick={() => handleNavigation("#home")}> 
+          <button className="flex items-center px-4 py-1 m-2 font-medium text-white transition-transform duration-200 border-2 border-white rounded-md cursor-pointer hover:scale-105 md:w-1/7 hover:bg-black hover:text-white hover:border-slate-900" onClick={() => handleNavigation("#contact")}> 
             Get in touch
             <VscArrowRight className="ml-2" />
           </button> 

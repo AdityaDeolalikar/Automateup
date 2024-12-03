@@ -82,6 +82,7 @@ const Footer = () => {
               <div className="flex gap-3">
               <img src={svg2} alt="" className="mt-1 cursor-pointer"/>
               <img src={svg4} alt="" className="mt-1 cursor-pointer"/>
+              <img src={svg1} alt="" className="mt-1 cursor-pointer"/>
               </div>
             </ul>
           </div>
