@@ -15,7 +15,7 @@ import face5 from '../assets/face5.jpg'
 const testimonialsData = [
   {
     id: 1,
-    name: "Alice Johnson  ",
+    name: "Riya Malhotra",
     image: profileImage, 
     backgroundColor: "bg-blue-400", 
     description: "The team at AutomateUp delivered a stunning and fully functional website for my business within a short span. Their attention to detail and responsiveness were top-notch. I couldn't be happier with the results!"
@@ -36,14 +36,14 @@ const testimonialsData = [
   },
   {
     id: 4,
-    name: "Olivia W.",
+    name: "Aarohi Mishra",
     image: face3,
     backgroundColor: "bg-yellow-400",
     description: "Exceptional service! AutomateUp not only built a great website for my e-commerce store but also implemented automation that simplifies my order management process. Fantastic!."
   },
   {
     id: 5,
-    name: "John Doe",
+    name: "Aarav Sharma",
     image: face4,
     backgroundColor: "bg-gray-400",
     description: "From concept to completion, AutomateUp created a visually appealing and intuitive design for my platform. Their expertise in design and branding made all the difference!"
