@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 // import Navbar from "../components/Navbar";
-import Logoold from "../assets/Logoold.png";
+import automateupabout from "../assets/automateupabout.jpg";
 import menuIcon from "../assets/menu.png"; // Hamburger menu icon
 import about from "../assets/about.jpg";
 import closeIcon from "../assets/close.png"; // Close icon
@@ -43,7 +43,7 @@ const About = () => {
         {/* Logo */}
         <div className="mx-8">
           <img
-            src={Logoold}
+            src={automateupabout}
             width={250}
             height={50}
             alt="Logo"
