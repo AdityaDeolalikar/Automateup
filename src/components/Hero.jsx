@@ -29,7 +29,7 @@ const Hero = () => {
   },[])
   return (
     <>
-      <div className="relative w-full h-screen overflow-hidden" id="top">
+      <div className="relative w-full h-screen overflow-hidden " id="top">
         <video
           src={videobg2}
           autoPlay
@@ -87,7 +87,7 @@ const Hero = () => {
         autoplay={true}
         loop={true}
         animationData={our1}
-        className=" h-[250px] w-[250px]"
+        className=" h-[250px] w-[250px] z-0"
       />
             <h1 className="text-2xl font-semibold text-center md:text-3xl">
               Clear Communication
@@ -99,18 +99,18 @@ const Hero = () => {
             </p>
           </div>
 
-          <div className="flex flex-col items-center gap-3">
+          <div className="flex flex-col items-center gap-3 ">
             {/* <img src={icon2} alt="" className="w-32 h-auto md:w-40" /> */}
             <Lottie
         autoplay={true}
         loop={true}
         animationData={our2}
-        className=" h-[250px] w-[250px]"
+        className=" h-[250px] w-[250px]  relative z-[-1]"
       />
-            <h1 className="text-2xl font-semibold text-center md:text-3xl">
+            <h1 className="relative z-[-1] text-2xl font-semibold text-center md:text-3xl">
               Right Tech for the Right Problem
             </h1>
-            <p className="font-medium text-center text-md md:text-left lg:text-center md:text-lg">
+            <p className="relative z-[-1] font-medium text-center text-md md:text-left lg:text-center md:text-lg">
               We use a range of technologies, including low-code tools and AI,
               to meet your specific needs. By choosing the right tools, we
               deliver solutions that are both effective and adaptable to your

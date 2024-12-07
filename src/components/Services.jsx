@@ -190,7 +190,7 @@ const Services = () => {
           </div>
     
           {/* Card Section */}
-          <div className="relative z-20 grid h-auto grid-cols-1 gap-12 p-2 mt-10 sm:grid-cols-2 md:grid-cols-3 mx-14" >
+          <div className="relative z-50 grid h-auto grid-cols-1 gap-12 p-2 mt-10 sm:grid-cols-2 md:grid-cols-3 mx-14" >
             {services.map((service, index) => (
               <div
                 key={index}

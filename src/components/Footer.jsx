@@ -52,7 +52,7 @@ const Footer = () => {
 
       </div> */}
 
-        <div className="sm:justify-between sm:flex md:justify-center md:gap-28 md:mt-16">
+        <div className="sm:justify-between sm:flex md:justify-center md:gap-28 md:mt-16 md:text-lg">
           <div>
             <img src={Logo} alt="" className="h-40 w-50"/>
           </div>

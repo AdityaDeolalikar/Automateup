@@ -112,7 +112,7 @@ const Testimonials = () => {
   }
 
   return (
-    <div className="h-auto mt-20 text-white md:h-2/5 bg-customColor">
+    <div className="h-auto mt-20 text-white md:h-2/5 bg-customColor z-[-1] relative">
       <h1 className="relative z-10 text-4xl font-semibold text-center top-10 md:text-5xl">
       Key Achievements
       </h1>

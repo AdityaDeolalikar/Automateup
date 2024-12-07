@@ -59,7 +59,7 @@ const testimonialsData = [
 
 const Testimonials = () => {
   return (
-    <div className='h-auto md:h-screen bg-bgColor' id='testimonials'>
+    <div className='h-auto md:h-screen bg-bgColor z-[-1] relative' id='testimonials'>
       <div>
         <h1 className="relative z-10 mt-20 text-4xl font-semibold text-center top-5 md:text-5xl">
           Testimonials
